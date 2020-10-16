@@ -1,0 +1,24 @@
+{
+  "key": "Sumologic",
+  "name": "SumoLogic Plugin",
+  "description": "This plugin sends custom log messages to a SumoLogic's Http Source",
+  "version": "1.0.0",
+  "documentationUrl": "http://vanilla.topcoder-dev.com",
+  "type": "addon",
+  "priority": "99",
+  "icon": "sumo-logic.png",
+  "mobileFriendly": true,
+  "hasLocale": false,
+  "settingsUrl": "/settings/sumologic",
+  "settingsPermission": "Garden.Settings.Manage",
+  "authors": [
+    {
+      "name": "Topcoder",
+      "email": "support@topcoder.com",
+      "homepage": "https://topcoder.com"
+    }
+  ],
+  "require": {
+    "vanilla": ">=3.0"
+  }
+}
